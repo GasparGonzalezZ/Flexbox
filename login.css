@@ -1,0 +1,104 @@
+* {
+    margin:0px ;
+    padding: 0px;    
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(imageneslog/fondlog.jpg) ;
+    background-position: center;
+    background-attachment: contain; 
+    background-size: cover; 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+* {
+   
+}
+
+.formulario {   
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  
+    width: 40%;
+    height: 80%;
+
+    margin: 150px;
+    padding: 3px;
+
+    background: rgb(230, 230, 230);    
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+.inp-contenedor {
+    display: flex;
+    flex-flow: row nowrap;
+
+    margin: 15px;
+    border: 1px solid #aaa;
+    width: 90%;
+    justify-content: center;
+    align-content: center;    
+}
+input {background-color:rgb(230, 230, 230) ;}
+.inp-contenedor input{
+    font-size: 20px;
+    
+    justify-content: center;
+    align-content: center; 
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.inp-contenedor i{
+    justify-content: flex-start;
+    align-content: center;
+    margin: 15px;
+}
+
+.icon {
+   
+    text-align: center;
+    color: #999;
+}
+
+.boton {
+    border: none;
+    width: 90%;
+    color: #fff;
+    font-size: 20px;
+    background:#1a2537 ;
+    padding: 15px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton:hover{
+    background:cadetblue;
+}
+
+a {
+    text-decoration: none;
+}

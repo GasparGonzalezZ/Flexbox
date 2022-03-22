@@ -1,0 +1,58 @@
+Flex box
+
+display:flex;
+
+lo que hace flexbox es que hace que los elementos que estan dentro del contenedor, se adapten al espacio 
+disponible en el contenedor, modificando su alto o su ancho
+
+flex-direction (para poner los elementos en columnas o en filas)
+                row o column
+VAN A COMPARTIR TODAS UNA FILA Y SE VAN A ADAPTAR
+
+----------------------------------------------------------------------------------
+
+CON                 le podemos decir que respeten su tamaño y baje los elementos
+        flex-wrap 
+                      nowrap para que los adapte 
+
+                      wrap   para que los ponga uno abajo del otro
+
+ ----------------------------------------------------------------------------------
+                Lo que hace es lo mismo que antes pero en una sola linea
+
+flex-flow  y le podemos aplicar                         
+            row/column nowrap/wrap
+
+------------------------------------------------------------------------------------
+                    para justificar los objetos donde queramos
+Justify-content       
+                    left/right/
+                    flex-start/flex-end
+
+------------------------------------------------------------------------------------
+                    para alinear los objetos 
+align-items         strech -- propiedad para que se expandan 100%
+                    center/
+                    flex-start/flex-end
+
+-------------------------------------------------------------------------------------
+                    para ajustar los espacios entre los objetos
+align-content       
+                    center/
+                    space-between/around -- deja espacio entre linea y linea
+                    flex-start           -- acomoda arriba
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+            con esta propiedad, a los hijos de un contenedor,les podemos dar
+            PRIORIDAD para expandirce
+flex-grow: 1
+flex-grow: 5   ESTE se va a expandir mas que los otros
+flex-grow: 1
+
+-------------------------------------------------------------------------------------
+                    para modificarle el ancho(es mas compatible con flex)
+flex-basis: 50%
+
+-------------------------------------------------------------------------------------
